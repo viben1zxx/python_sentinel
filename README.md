@@ -22,4 +22,10 @@ This project demonstrates core SOC (Security Operations Center) capabilities, tr
 2. When an attacker (e.g., from a Kali Linux VM) attempts a connection, the Honeypot logs their IP as a severe threat.
 3. The `sentinel.py` SIEM script reads this log in real-time, extracts the IP, looks up the geographic location, and alerts the SOC analyst.
 4. Upon termination, the SIEM generates an Incident Response visual dashboard showing attack frequencies.
-5.
+
+## 🚀 Quick Start
+```bash
+git clone [https://github.com/viben1zxx/python_sentinel.git](https://github.com/viben1zxx/python_sentinel.git)
+cd python_sentinel
+pip install -r requirements.txt
+python sentinel.py
